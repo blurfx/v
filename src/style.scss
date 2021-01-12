@@ -1,0 +1,32 @@
+:root {
+  --bg-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+#app {
+  display: flex;
+  width: 50vw;
+  height: 100%;
+  margin: 0 auto;
+
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 100%;
+  }
+}
